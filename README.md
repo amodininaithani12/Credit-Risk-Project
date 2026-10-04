@@ -1,4 +1,4 @@
-# Credit Risk Prediction & Classification
+# Credit Risk Prediction
 
 ## Project Overview
 
