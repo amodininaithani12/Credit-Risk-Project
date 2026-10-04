@@ -45,6 +45,16 @@ Models were evaluated using:
 - ROC-AUC
 
 Particular attention was given to the default class because false-negative predictions can be important in credit-risk applications.
+## Results
+
+| Model | Accuracy | Default Recall | Default F1 | ROC-AUC |
+|------|----------|----------------|------------|---------|
+| Logistic Regression | ~0.80 | ~0.45 | ~0.50 | 0.708 |
+| Random Forest | ~0.78 | ~0.55 | ~0.53 | 0.759 |
+
+Random Forest achieved higher ROC-AUC and better default-class recall than Logistic Regression, despite having lower overall accuracy.
+
+This highlights why accuracy alone may not be sufficient for evaluating credit-risk classification models.
 
 ## Key Findings
 
